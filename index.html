@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>趣聊APP下载分发页面</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+
+        body {
+            background-color: #f5f7fa;
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .app-box {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            margin-top: 40px;
+        }
+
+        .app-icon {
+            width: 100px;
+            height: 100px;
+            border-radius: 20px;
+            background: #4285f4;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+			background: url("img/22.png") center center / cover no-repeat;
+			background-color: #4285f4;
+        }
+
+        .app-name {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .app-desc {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        .download-btn {
+            display: block;
+            width: 100%;
+            height: 55px;
+            line-height: 55px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            margin: 12px 0;
+            transition: 0.3s;
+        }
+
+        .line1 {
+            background-color: #4285f4;
+            color: white;
+        }
+
+        .line2 {
+            background-color: #34a853;
+            color: white;
+        }
+
+        .download-btn:hover {
+            opacity: 0.9;
+            transform: scale(1.02);
+        }
+
+        .tip {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #999;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="app-box">
+        <!-- APP图标区域 -->
+        <div class="app-icon"></div>
+        <!-- APP名称 -->
+        <h1 class="app-name">趣聊</h1>
+        <p class="app-desc">安卓/IOS正式版 | 安全下载</p>
+
+        <!-- 下载按钮 线路1 -->
+        <a href="http://d.qqim.top/d1.html" class="download-btn line1" target="_self">
+            🔗 线路1 高速下载
+        </a>
+
+        <!-- 下载按钮 线路2 -->
+        <a href="http://d.qqim.top/d2.html" class="download-btn line2" target="_self">
+            🔗 线路2 备用下载
+        </a>
+
+        <div class="tip">
+            点击下载按钮即可安装<br>
+            若提示风险，请选择「继续安装」
+        </div>
+    </div>
+</body>
+</html>
